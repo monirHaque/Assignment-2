@@ -116,3 +116,39 @@ input[type="checkbox"] {
     justify-content: center;
 }
 
+/* 1st Section */
+
+.first-section {
+    max-width: 1580px;
+    margin: auto;
+    padding: 0px 60px 0px 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.section-text {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.team-img {
+    width: 280px;
+}
+
+.btn {
+    margin-top: 20px;
+}
