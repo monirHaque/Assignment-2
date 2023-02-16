@@ -239,3 +239,64 @@ input[type="checkbox"] {
 .single-icon:hover img{
     transform: scale(1.5);
 }
+
+/* Blog section */
+
+.blog-section {
+    max-width: 1580px;
+    margin: auto;
+    padding: 0 50px 0 50px;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.blog-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-comment {
+    display: flex;
+    font-size: 14px;
+}
+
+.single-blog {
+    padding: 15px 15px 15px 0px;
+}
+
+.blog-button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Sponsors Section */
+
+.sponsor-container{
+    max-width: 1580px;
+    margin: auto;
+    padding: 0 50px 0 50px;
+
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sponsors {
+    margin: 30px 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.sponsor img {
+    filter: grayscale(100%);
+    width: 80%;
+}
