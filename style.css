@@ -384,7 +384,7 @@ footer{
     }
 
     .first-section {
-        max-width: 1580px;
+        
         margin: auto;
         padding: 0 10px 0 10px;
         margin-top: 50px;
@@ -394,7 +394,7 @@ footer{
     /* 2nd Section */
 
     .second-section {
-        max-width: 1580px;
+        
         margin: auto;
         padding: 0 10px 0 10px;
         margin-top: 70px;
@@ -458,7 +458,6 @@ footer{
     .sponsors-container{
         margin: auto;
         padding: 0 10px 0 10px;
-    
         margin-bottom: 50px;
         text-align: center;
     }
